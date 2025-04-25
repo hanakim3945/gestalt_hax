@@ -1,3 +1,4 @@
+Pseudocode from DeviceIdentity.framework/DeviceIdentity
 ```jsx
 DeviceTypeDeviceIdentity *__cdecl -[DeviceTypeDeviceIdentity init](DeviceTypeDeviceIdentity *self, SEL a2)
 {
