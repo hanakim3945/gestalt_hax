@@ -2,6 +2,10 @@
 
 Hactivation via MobileGestalt POC.
 
+Working for iOS 15 ~ 18.5.
+
+For iOS 18.6 ~ 26.2b2, see the [updated gestalt exploit](https://github.com/hanakim3945/gestalt_hax_v2)
+
 ### Why is this working?
 mobileactivationd skips the usual activation process on demoted devices, such as internal UI prototypes and other factory equipment.
 By spoofing AP demotion in the CacheData bitmap in mobilegestalt cache, mobileactivationd recognizes the device as demoted and therefore shortcut the activation process :)
